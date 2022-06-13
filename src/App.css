@@ -24,6 +24,15 @@
   color: white;
 }
 
+/* test css */
+.react-test {
+  background : aqua;
+  color : black;
+  fontsize: 48px;
+  fontWeight: bold;
+  padding: 16;
+}
+
 .App-link {
   color: #61dafb;
 }
