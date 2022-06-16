@@ -1,24 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './Counter';
+import Say from './Say';
 
 function App() {
-  const name = "react";
-  return (
-      <>
-          {/* 주석 */}
-          <div
-              className="react" // 시작 태그를 여러 줄 작성시 주석 작성 가능.
-          >
-              {name}
-          </div>
-          // 이런건 
-          /* 나온다 */
-          <input />
-      </>
-  )
+  return <Say />;
 }
-
-
 
 /*
 function App() {
