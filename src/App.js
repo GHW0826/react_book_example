@@ -3,12 +3,20 @@ import './App.css';
 import Counter from './Counter';
 import Say from './Say';
 import EventPractice from './EventPractice';
-
+import ValidationSample from './ValidationSample';
+import ScrollBox from './ScrollBox';
 function App() {
-  return <EventPractice />;
+  return (
+    <div>
+      <ScrollBox ref={(ref) => (this.ScrollBox = ref)} />
+      <button onClick={() => this.ScrollBox.scrollToBottom()}>맨밑으로</button>
+    </div>
+  );
 }
 
 /*
+     
+
 function App() {
   return (
     <div className="App">
